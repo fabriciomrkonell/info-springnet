@@ -5,3 +5,11 @@
 ** LogRoutesHandler é emitir as rotas para o browser. Configuração de rotas.
 
 ** A tag httpModules definide que agora conterá mais um módulo raiz que corresponderá às configurações web exclusivas do Spring.net.
+
+----------
+
+Tipos de escopos:
+
+* Aplication: Cria uma unica instância do objeto durante a aplicação;
+* Session: Cria uma unica instancia do HttpSession. Ideal para perfil de usuários.
+* Request: Cria uma unica instância por solicitação HTTP.
